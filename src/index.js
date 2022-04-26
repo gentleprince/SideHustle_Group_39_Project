@@ -1,13 +1,27 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import React from "react";
+import ReactDOM from "react-dom";
+import "./styles.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  Navigation,
+  // Footer,
+  // Home,
+  // About,
+  // Contact
+  Products
+} from "./components";
 
-import App from "./App";
+ReactDOM.render(
+  <Router>
+    <Navigation />
+    <Routes>
+      {/* <Route path="/" element={<Home />} /> */}
+      {/* <Route path="/about" element={<About />} /> */}
+      <Route path="/products" element={<Products />} />
+      {/* <Route path="/contact" element={<Contact />}></Route> */}
+    </Routes>
+    {/* <Footer /> */}
+  </Router>,
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+  document.getElementById("root")
 );

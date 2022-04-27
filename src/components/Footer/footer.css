@@ -1,0 +1,36 @@
+
+
+.footer{
+    font-family: serif;
+    background: #23201E;
+    color: #FFFFFF;
+    height: 300px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.sup{
+    line-height: 30px;
+}
+.newsletter {
+    
+}
+.newsletter form input{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px;
+    border-radius:30px ;
+}
+.newsletter form button{
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background: #F77A74;
+    border: 1px;
+    border-radius: 20px;
+    color: #FEFFFF;
+    font-size: 15px;
+    font: tahoma;
+    text-transform: uppercase;
+}

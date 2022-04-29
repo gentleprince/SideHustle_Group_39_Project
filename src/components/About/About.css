@@ -1,0 +1,130 @@
+
+
+.about{
+    background: #FFFFFF;
+}
+
+.aboutHeader{
+    background-image:url(../../images/cookb.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+
+
+}
+.aboutHeader h2{
+    color: whitesmoke;
+    font-family: tahoma;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+}
+.few-about{
+    background: #ECEEED;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -17px;
+    
+}
+.few-about div h2{
+    font-family: serif;
+    font-size: 45px;
+    color: #2B2C2F;
+}
+.few-about div p{
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 0.5pt;
+    color: #9B9B9B;
+}
+.few-about div button{
+    width: 200px;
+    height: 40px;
+    background: #F77A74;
+    border: 1px;
+    border-radius: 20px;
+    color: #FEFFFF;
+    font-size: 15px;
+    font: tahoma;
+    text-transform: uppercase;
+    
+}
+.few-about div{
+    margin-bottom: 12px;
+}
+.story{
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+}
+.story h1{
+    font-size: 40px;
+    font-family: lucida;
+    text-transform: capitalize;
+    color: #2B2C2F;
+}
+.story h4{
+    font-family: serif;
+    color: #9B9BA7;
+    font-size: 30px;
+    margin-left: -50px ;
+}
+.story h3{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 100;
+}
+.story p{
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 0.5pt;
+    color: #9B9B9B;
+}
+.line{
+    display: block;
+    border-left: 0.5px solid #D1D1D1;
+}
+.idea {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+}
+.partners{
+    background-image: url(../../images/-260nw-1143450326.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: bottom;
+    height: 390px;
+   
+}
+.partnersImg{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+.partners h4{
+    margin-top: 50px;
+    font-family: lucida;
+    color: #2B2C2F;
+    font-size: 50px;
+    margin-left: -50px ;
+}
+.partners p{
+        font-family: sans-serif;
+        text-align: center;
+        justify-content: center;
+        width: 550px;
+        margin-left: 380px;
+        margin-right: auto;
+        margin-top: -60px;
+        font-weight: 100;
+        line-height: 30px;
+        letter-spacing: 0.5pt;
+        color: #2B2C2F;
+}
